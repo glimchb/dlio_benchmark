@@ -11,4 +11,4 @@ RUN python3 -m pip install --upgrade pip
 RUN python3 -m venv /workspace/venv
 ENV PATH="/workspace/venv/bin:$PATH"
 RUN pip install pybind11 
-RUN RUN pip install .
+RUN pip install .
